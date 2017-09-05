@@ -7,7 +7,7 @@
    const nombre_db = "FI";
    private $_conn = NULL;
    private $_metodo;
-   private $_argumentos;
+   private $_argumentos;  
    public function __construct() {
      parent::__construct();
      $this->conectarDB();
